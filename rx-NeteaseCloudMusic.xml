@@ -1,0 +1,20 @@
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+
+    <prescription type="service" package="com.netease.cloudmusic" class="com.amap.api.location.APSService" sender="any"/>
+    <prescription type="service" package="com.netease.cloudmusic" class="com.xiaomi.mipush.sdk.MessageHandleService" sender="any"/>
+    <prescription type="service" package="com.netease.cloudmusic" class="com.xiaomi.mipush.sdk.PushMessageHandler" sender="any"/>
+    <prescription type="service" package="com.netease.cloudmusic" class="com.netease.cloudmusic.service.PushService" sender="any"/>
+    <prescription type="service" package="com.netease.cloudmusic" class="com.huawei.android.pushagent.PushService" sender="any"/>
+    <prescription type="service" package="com.netease.cloudmusic" class="com.xiaomi.push.service.XMJobService" sender="any"/>
+    <prescription type="service" package="com.netease.cloudmusic" class="com.xiaomi.push.service.XMPushService" sender="any"/>
+
+    <prescription type="broadcast" package="com.netease.cloudmusic" class="com.netease.cloudmusic.receiver.AlarmAlertBroadcastReciever" sender="any"/>
+    <prescription type="broadcast" package="com.netease.cloudmusic" class="com.netease.cloudmusic.module.push.receiver.HuaweiPushReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.netease.cloudmusic" class="com.netease.cloudmusic.activity.IntroduceActivity$PackageInstalledReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.netease.cloudmusic" class="com.netease.cloudmusic.receiver.MediaButtonEventReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.netease.cloudmusic" class="com.netease.cloudmusic.module.push.receiver.MiPushMessageReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.netease.cloudmusic" class="com.xiaomi.push.service.receivers.NetworkStatusReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.netease.cloudmusic" class="com.xiaomi.push.service.receivers.PingReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.netease.cloudmusic" class="com.huawei.android.pushagent.PushBootReceiver" sender="any"/>
+    <prescription type="broadcast" package="com.netease.cloudmusic" class="com.huawei.android.pushagent.PushEventReceiver" sender="any"/>
+</prescriptions>
